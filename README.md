@@ -1,4 +1,4 @@
-# netflet_rony
+# netflet_Rony
 # Cockburn Sound Data Website
 
 This repository contains the code for a website that displays temperature, salinity, and wind data for Cockburn Sound.
@@ -25,6 +25,3 @@ To run the website locally:
 
 Contributions are welcome. Please open an issue to discuss your idea or submit a pull request.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
