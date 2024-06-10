@@ -1,0 +1,58 @@
+<!-- https://github.com/danwild/leaflet-velocity -->
+
+<!doctype html>
+<html>
+<head>
+	<title>velocity</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../../static/leaflet/style.css">
+</head>
+<body>
+	<header class="menu-principal">
+		<!-- <img src="https://www.ualg.pt/sites/ualg.pt/files/gcp/eventos/logo_cima.png" alt="logo" width="200" height="60";> -->
+		<!-- <img src="/img/aed_logo.png" alt="logo" width="200" height="60";> -->
+		<!-- image from loacl directory -->
+		<img src="/img/wamsi.png" alt="logo" width="200" height="60";>
+	</header>
+
+<div id="map"></div>
+
+<!--vendor-->
+<!--<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.1.0/dist/leaflet.css" />
+<script src="https://npmcdn.com/leaflet@1.1.0/dist/leaflet.js"></script>
+
+<!-- Load Esri Leaflet from CDN -->
+<script src="https://unpkg.com/esri-leaflet@2.1.4/dist/esri-leaflet.js"
+integrity="sha512-m+BZ3OSlzGdYLqUBZt3u6eA0sH+Txdmq7cqA1u8/B2aTXviGMMLOfrKyiIW7181jbzZAY0u+3jWoiL61iLcTKQ=="
+crossorigin=""></script>
+
+<!--leaflet-idw-->
+<script src="src/leaflet-idw.js"> </script>
+
+<!--temp data-->
+<script src="data/netcdf/salinity.js"></script>
+<script src="data/netcdf/temperature.js"></script>
+
+<!--temp data-->
+<!-- <script src="data/netcdf/salinity.js"></script>
+<script src="data/netcdf/salinity16.js"></script>
+<script src="data/netcdf/salinity17.js"></script> -->
+<!-- <script src="data/netcdf/temperature.js"></script>
+<script src="data/netcdf/temperature16.js"></script>
+<script src="data/netcdf/temperature17.js"></script> --> -->
+
+<!--demo-->
+<link rel="stylesheet" href="netcdf-vis.css" />
+<script src="netcdf-vis.js"></script>
+
+<!--leaflet-velocity-->
+<link rel="stylesheet" href="dist/leaflet-velocity.css" />
+<script src="dist/leaflet-velocity.js"></script>
+
+
+</body>
+</html>
